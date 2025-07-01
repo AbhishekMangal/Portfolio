@@ -8,6 +8,7 @@ export default function AchievementsSection() {
     { text: "GFG 5★ (2006)", color: "amber" },
     { text: "Solved 1500+ coding problems", color: "cyan" },
     { text: "Qualified HackOn 2025 – Technical Skills Round", color: "pink" },
+    { text: "Rank 63 – CodeClash 2025 (Unstop)", color: "orange" },
   ];
 
   return (
@@ -35,7 +36,7 @@ export default function AchievementsSection() {
         >
           <div className="grid md:grid-cols-2 gap-8">
             <div className="space-y-6">
-              {achievements.slice(0, 3).map((achievement, index) => (
+              {achievements.slice(0, 4).map((achievement, index) => (
                 <motion.div
                   key={achievement.text}
                   className="flex items-center space-x-4 p-4 bg-slate-700/50 rounded-lg hover:bg-slate-700/70 transition-colors"
@@ -50,7 +51,7 @@ export default function AchievementsSection() {
               ))}
             </div>
             <div className="space-y-6">
-              {achievements.slice(3).map((achievement, index) => (
+              {achievements.slice(4).map((achievement, index) => (
                 <motion.div
                   key={achievement.text}
                   className="flex items-center space-x-4 p-4 bg-slate-700/50 rounded-lg hover:bg-slate-700/70 transition-colors"
