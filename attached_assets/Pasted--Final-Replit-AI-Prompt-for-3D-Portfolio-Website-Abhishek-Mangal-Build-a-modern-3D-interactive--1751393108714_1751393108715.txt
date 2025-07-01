@@ -1,0 +1,138 @@
+🚀 Final Replit AI Prompt for 3D Portfolio Website (Abhishek Mangal)
+Build a modern, 3D interactive portfolio website for a B.Tech Computer Science student from NIT Patna (Batch 2026) targeting SDE roles at top tech firms like MAANG.
+
+The website must be built with React + Tailwind CSS + Framer Motion + (optionally) Three.js, with responsive design, dark mode theme, and deployable via Vercel.
+
+🎯 Sections and Features:
+✅ Landing Page (Hero)
+Name: Abhishek Mangal
+
+Tagline: “Code. Create. Conquer.”
+
+3D or animated background (Three.js or CSS gradient blob)
+
+“Hire Me” CTA button that scrolls to Contact
+
+✅ About Me
+“I’m Abhishek Mangal, a final-year CSE student at NIT Patna. With strong foundations in full-stack development, scalable systems, and AI/ML, I’ve solved over 1500+ DSA problems and built production-grade projects. I thrive at the intersection of performance, security, and clean architecture.”
+
+Display profile image (optional)
+
+Add gradient border card or neon highlight
+
+✅ Projects Section
+Use 3D-style cards with hover animation
+
+Each project includes title, stack, GitHub/demo links, short summary
+
+Show projects in grid layout using ProjectCard component
+
+Projects:
+
+🔐 Video-Based Multi-Factor Authentication
+GitHub: Multi_Factor_Authentication
+
+🤖 AI Code Reviewer
+GitHub: AI-code-Reviewer
+
+🌱 Dockerized Plant Disease Detector
+GitHub: Deep-Learning-Projects
+
+💬 Secure Real-Time Chat Platform
+GitHub: Chatting-app
+
+✅ Competitive Programming Stats Section
+Cards for each platform styled like the Contact section cards:
+
+bg-slate-800/90, backdrop-blur-sm, border-slate-600
+
+Vibrant ring-${color}-500/20 gradient for each platform
+
+Sample Stats:
+
+js
+Copy
+Edit
+[
+  {
+    platform: "Codeforces",
+    rating: "Expert (1625)",
+    rank: "Top 10%",
+    color: "blue"
+  },
+  {
+    platform: "Codechef",
+    rating: "5★ (2043)",
+    rank: "Top 5%",
+    color: "green"
+  },
+  {
+    platform: "LeetCode",
+    rating: "Knight (2035)",
+    rank: "Top 4%",
+    color: "purple"
+  },
+  {
+    platform: "GFG",
+    rating: "5★ (2006)",
+    rank: "Top 2%",
+    color: "amber"
+  }
+]
+✅ Resume Section
+Styled with glass-effect card
+
+Button to download resume:
+
+js
+Copy
+Edit
+https://drive.google.com/uc?export=download&id=1Fxo7fpq7w1ZmXtcmAx4u1s_DtOlf9xvx
+Display quick stats:
+
+4+ Major Projects
+
+1500+ Problems Solved
+
+15+ Technologies
+
+✅ Contact Section
+Styled like the rest: bg-slate-800/90, gradient accents, Framer Motion animations
+
+Include:
+
+📧 Email: abhishekmangal12345@gmail.com
+
+💼 LinkedIn: Abhishek Mangal
+
+🐱 GitHub: @AbhishekMangal
+
+Contact form with validation (Name, Email, Subject, Message)
+
+Social media links with hover scale and gradients
+
+✅ Achievements Section
+Bullet list or animated counters:
+
+Codeforces Expert (1625)
+
+Codechef 5★ (2043)
+
+LeetCode Knight (2035)
+
+GFG 5★ (2006)
+
+Solved 1500+ coding problems
+
+Qualified HackOn 2025 – Technical Skills Round
+
+🎨 Theme
+Backgrounds: bg-gray-950, bg-slate-800/90
+
+Text: text-white, text-gray-300, text-slate-100
+
+Accents: from-cyan-400, from-blue-500, from-purple-500, from-amber-400, from-green-500
+
+Use backdrop-blur-sm and ring-* for vibrant effects
+
+Animations: Framer Motion (entrance + hover)
