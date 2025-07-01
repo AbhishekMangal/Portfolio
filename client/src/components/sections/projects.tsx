@@ -4,7 +4,8 @@ export default function ProjectsSection() {
   const projects = [
     {
       title: "🔐 Video-Based Multi-Factor Authentication",
-      description: "Advanced authentication system using video-based biometric verification with machine learning models for enhanced security.",
+      description:
+        "Advanced authentication system using video-based biometric verification with machine learning models for enhanced security.",
       technologies: [
         { name: "Python", color: "blue" },
         { name: "OpenCV", color: "green" },
@@ -16,7 +17,8 @@ export default function ProjectsSection() {
     },
     {
       title: "🤖 AI Code Reviewer",
-      description: "Intelligent code review system powered by AI that analyzes code quality, suggests improvements, and detects potential bugs.",
+      description:
+        "Intelligent code review system powered by AI that analyzes code quality, suggests improvements, and detects potential bugs.",
       technologies: [
         { name: "React", color: "cyan" },
         { name: "Node.js", color: "green" },
@@ -28,7 +30,8 @@ export default function ProjectsSection() {
     },
     {
       title: "🌱 Dockerized Plant Disease Detector",
-      description: "Deep learning application for detecting plant diseases using convolutional neural networks, containerized with Docker for scalable deployment.",
+      description:
+        "Deep learning application for detecting plant diseases using convolutional neural networks, containerized with Docker for scalable deployment.",
       technologies: [
         { name: "Python", color: "blue" },
         { name: "TensorFlow", color: "green" },
@@ -40,7 +43,8 @@ export default function ProjectsSection() {
     },
     {
       title: "💬 Secure Real-Time Chat Platform",
-      description: "Real-time messaging application with end-to-end encryption, group chats, file sharing, and modern responsive design.",
+      description:
+        "Real-time messaging application with end-to-end encryption, group chats, file sharing, and modern responsive design.",
       technologies: [
         { name: "React", color: "cyan" },
         { name: "Socket.io", color: "green" },
@@ -49,13 +53,14 @@ export default function ProjectsSection() {
       ],
       github: "Chatting-app",
       hoverColor: "amber",
+      liveDemo: "https://chatting-app-11.onrender.com",
     },
   ];
 
   return (
     <section id="projects" className="py-20 px-4 bg-gray-900/50">
       <div className="max-w-7xl mx-auto">
-        <motion.div 
+        <motion.div
           className="text-center mb-16"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -63,9 +68,13 @@ export default function ProjectsSection() {
           viewport={{ once: true }}
         >
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            <span className="bg-gradient-to-r from-purple-400 to-pink-500 bg-clip-text text-transparent">Featured Projects</span>
+            <span className="bg-gradient-to-r from-purple-400 to-pink-500 bg-clip-text text-transparent">
+              Featured Projects
+            </span>
           </h2>
-          <p className="text-gray-400 text-lg">Showcasing my technical expertise through real-world applications</p>
+          <p className="text-gray-400 text-lg">
+            Showcasing my technical expertise through real-world applications
+          </p>
         </motion.div>
 
         <div className="grid md:grid-cols-2 xl:grid-cols-2 gap-8">
@@ -79,11 +88,13 @@ export default function ProjectsSection() {
               viewport={{ once: true }}
             >
               <div className="flex items-center justify-between mb-4">
-                <h3 className={`text-xl font-bold text-white group-hover:text-${project.hoverColor}-400 transition-colors`}>
+                <h3
+                  className={`text-xl font-bold text-white group-hover:text-${project.hoverColor}-400 transition-colors`}
+                >
                   {project.title}
                 </h3>
                 <div className="flex space-x-3">
-                  <a 
+                  <a
                     href={`https://github.com/AbhishekMangal/${project.github}`}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -91,15 +102,21 @@ export default function ProjectsSection() {
                   >
                     <i className="fab fa-github text-xl"></i>
                   </a>
-                  <a 
-                    href="#" 
-                    className={`text-gray-400 hover:text-${project.hoverColor}-400 transition-colors`}
-                  >
-                    <i className="fas fa-external-link-alt text-lg"></i>
-                  </a>
+                  {project.liveDemo && (
+                    <a
+                      href={project.liveDemo}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className={`text-gray-400 hover:text-${project.hoverColor}-400 transition-colors`}
+                    >
+                      <i className="fas fa-external-link-alt text-lg"></i>
+                    </a>
+                  )}
                 </div>
               </div>
-              <p className="text-gray-300 mb-4 leading-relaxed">{project.description}</p>
+              <p className="text-gray-300 mb-4 leading-relaxed">
+                {project.description}
+              </p>
               <div className="flex flex-wrap gap-2 mb-4">
                 {project.technologies.map((tech) => (
                   <span
