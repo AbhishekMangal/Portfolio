@@ -57,7 +57,7 @@ export default function ResumeSection() {
           </div>
 
           <motion.a
-            href="https://drive.google.com/file/d/1oT0oNci4ETO3xCShdoyH525wF6YraYn9/view?usp=sharing"
+          href="https://drive.google.com/file/d/1KqjmfW6TWB2t4kDy7Iq6qPensWqwq2_8/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-blue-500 to-purple-600 text-white font-semibold rounded-lg hover:from-blue-600 hover:to-purple-700 transform hover:scale-105 transition-all duration-300 shadow-lg shadow-blue-500/25"

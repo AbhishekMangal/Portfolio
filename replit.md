@@ -108,7 +108,9 @@ This is a modern, interactive portfolio website for Abhishek Mangal, a B.Tech Co
 
 ```
 Changelog:
-- July 01, 2025. Initial setup
+- July 01, 2025: Initial setup
+- July 01, 2025: Added clickable links to competitive programming platforms (Codeforces, LeetCode, Codechef, GFG)
+- July 01, 2025: Implemented contact form with in-memory storage for message submissions
 ```
 
 ## User Preferences
