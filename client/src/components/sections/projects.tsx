@@ -13,7 +13,7 @@ export default function ProjectsSection() {
         { name: "Flask", color: "amber" },
       ],
       github: "Multi_Factor_Authentication",
-      liveDemo: "https://multi-factor-authentication-1.onrender.com/login",
+      liveDemo: "https://multi-factor-authentication-1.onrender.com",
       hoverColor: "cyan",
     },
     {
