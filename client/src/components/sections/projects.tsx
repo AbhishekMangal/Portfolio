@@ -13,6 +13,7 @@ export default function ProjectsSection() {
         { name: "Flask", color: "amber" },
       ],
       github: "Multi_Factor_Authentication",
+      liveDemo: "https://multi-factor-authentication-1.onrender.com/login",
       hoverColor: "cyan",
     },
     {
@@ -26,7 +27,21 @@ export default function ProjectsSection() {
         { name: "MongoDB", color: "purple" },
       ],
       github: "AI-code-Reviewer",
+      liveDemo: "https://ai-code-reviewer-1-vowc.onrender.com/",
       hoverColor: "purple",
+    },
+    {
+      title: "👁️ Deep Face Detection with Custom Dataset",
+      description:
+        "Deep learning-based face detection system using custom-labeled dataset generated with LabelMe. Features GPU optimization with OpenCV, real-time augmentation with Albumentations, and scalable TensorFlow pipeline.",
+      technologies: [
+        { name: "TensorFlow", color: "blue" },
+        { name: "OpenCV", color: "green" },
+        { name: "Python", color: "purple" },
+        { name: "LabelMe", color: "amber" },
+      ],
+      github: "Deep-Learning-Projects/tree/main/Deep%20Face%20Detection",
+      hoverColor: "blue",
     },
     {
       title: "🌱 Dockerized Plant Disease Detector",

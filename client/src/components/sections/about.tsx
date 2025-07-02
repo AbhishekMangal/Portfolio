@@ -67,7 +67,7 @@ export default function AboutSection() {
             <h3 className="text-2xl font-bold mb-6 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">Quick Stats</h3>
             <div className="grid grid-cols-2 gap-6">
               <div className="text-center">
-                <div className="text-3xl font-bold text-cyan-400 mb-2">4+</div>
+                <div className="text-3xl font-bold text-cyan-400 mb-2">5+</div>
                 <div className="text-gray-400 text-sm">Major Projects</div>
               </div>
               <div className="text-center">

@@ -29,7 +29,7 @@ export default function ResumeSection() {
               transition={{ duration: 0.6, delay: 0.1 }}
               viewport={{ once: true }}
             >
-              <div className="text-2xl font-bold text-cyan-400 mb-2">4+</div>
+              <div className="text-2xl font-bold text-cyan-400 mb-2">5+</div>
               <div className="text-gray-400">Major Projects</div>
             </motion.div>
             <motion.div

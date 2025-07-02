@@ -111,6 +111,9 @@ Changelog:
 - July 01, 2025: Initial setup
 - July 01, 2025: Added clickable links to competitive programming platforms (Codeforces, LeetCode, Codechef, GFG)
 - July 01, 2025: Implemented contact form with in-memory storage for message submissions
+- July 01, 2025: Added Deep Face Detection project and live demo links for Multi-Factor Authentication and AI Code Reviewer
+- July 01, 2025: Added CodeClash 2025 Rank 63 achievement to achievements section
+- July 01, 2025: Updated project count from 4+ to 5+ across About and Resume sections
 ```
 
 ## User Preferences
